@@ -1,7 +1,7 @@
 galaxy_info:
   role_name: k3s
   author: Nicholas Burr
-  description: Install k3s cluster
+  description: Install k3s cluster, with a systemd service.
 
   license: MIT
 
