@@ -1,0 +1,2 @@
+---
+k3s_binary_download: "{% if ansible_facts.architecture == 'aarch64'%}k3s-arm64{% elif ansible_facts.architecture == 'x86_64'%}k3s{% elif ansible_facts.architecture %}k3s-{{ ansible_facts.architecture }}{% endif %}"
